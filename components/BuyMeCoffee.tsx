@@ -2,7 +2,7 @@ import { Coffee } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export function BuyMeCoffee() {
-  const COFFEE_URL = 'https://buy.stripe.com/5kA176bA895ggog4gh';
+  const COFFEE_URL = 'https://buy.stripe.com/test_7sIaHk8t7b3Ddz26oo';
 
   return (
     <motion.a
