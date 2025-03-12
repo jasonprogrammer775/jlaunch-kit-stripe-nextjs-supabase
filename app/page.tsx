@@ -244,15 +244,15 @@ export default function LandingPage() {
             {/* Header Content */}
             <div className="text-center">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 dark:text-white">
-                <span className="block">Next.js + Stripe + Supabase</span>
-                <span className="block text-primary dark:text-primary-light">Production-Ready Template</span>
+                <span className="block">JPstore</span>
+                <span className="block text-primary dark:text-primary-light">Production</span>
               </h1>
               <p className="mt-6 max-w-2xl mx-auto text-lg text-slate-600 dark:text-slate-300">
-                Start building with authentication and payments in minutes.
+                Start .
               </p>
               
               {/* CTA Buttons */}
-              <div className="mt-10 flex gap-4 justify-center">
+              {/* <div className="mt-10 flex gap-4 justify-center">
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
@@ -267,7 +267,7 @@ export default function LandingPage() {
                 >
                   Start Free Trial
                 </button>
-              </div>
+              </div> */}
             </div>
 
             {/* Combined Preview: Code + Workflow Steps */}
