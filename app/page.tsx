@@ -369,7 +369,7 @@ export const DevLife = () => {
       ))}
 
       {/* Enhanced CTA Section */}
-      {/* <motion.div
+      <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         className="relative py-20"
@@ -416,7 +416,7 @@ export const DevLife = () => {
         isOpen={isVideoModalOpen}
         onClose={() => setIsVideoModalOpen(false)}
         videoId="S1cnQG0-LP4"
-      /> */}
+      />
     </div>
   );
 }
